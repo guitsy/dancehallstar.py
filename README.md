@@ -29,6 +29,24 @@ Install dependencies automatically with pip:
       -p PATH, --path PATH  path to store the files in
 
 
+# Step by step instruction
+
+## Windows
+- install [python3](https://www.python.org/downloads/)
+- open the powershell app
+- change into the folder of the script: `cd <path to folder>`
+- `pip3 install -r requirements.txt`
+- `python3 dancehallstar.py -d <depth (any number)> -p <path to save the files>`
+
+## Mac
+- install [python3](https://www.python.org/downloads/)
+- open the terminal app
+- change into the folder of the script: `cd <path to folder>`
+- `pip3 install -r requirements.txt`
+- `python3 dancehallstar.py -d <depth (any number)> -p <path to save the files>`
+
+In case you experience a "FAILED! Removing temp file" failure, try using a VPN connection.
+
 
 
 

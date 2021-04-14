@@ -169,5 +169,3 @@ if __name__ == '__main__':
         print('\nExtracting archives to %s\n' % path)
         print(64*'*')
         unzip(filelist)
-    # filelist = [f for f in listdir(path) if isfile(join(path, f)) and f.endswith('.zip')]
-    # output_dir = '/Users/mischastuder/Downloads/'
